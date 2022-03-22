@@ -1,0 +1,80 @@
+.about-us {
+  color: #383A4C;
+  text-align: center;
+}
+
+.about-us-text {
+  padding: 0 105px;
+  margin-bottom: 50px;
+}
+
+.about-us-text p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 0 133px;
+}
+
+.about-us-advantage {
+  padding: 0 105px;
+}
+
+.about-us__list {
+  display: flex;
+  flex-basis: 196px;
+  gap: 50px;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  counter-reset: count 0;
+}
+
+.about-us__item {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 196px;
+  align-items: center;
+  row-gap: 16px;
+}
+
+.about-us__ellipse {
+  width: 123px;
+  height: 122px;
+  margin: 0;
+  background-size: contain;
+  background: url("../image/Ellipse.png") no-repeat;
+  position: relative;
+}
+
+.about-us__ellipse:after {
+  position: absolute;
+  content: counter(count);
+  counter-increment: count;
+  font-weight: 500;
+  font-size: 57px;
+  line-height: 100%;
+  color: #FFFFFF;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+
+.about-us__subtitle {
+  position: relative;
+}
+
+.about-us__subtitle:after, .about-us__subtitle:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  margin-top: -1.5px;
+  left: 405px;
+  height: 2px;
+  width: 43px;
+  background-color: #383A4C;
+}
+
+.about-us__subtitle:after {
+  right: 405px;
+  left: auto;
+}
