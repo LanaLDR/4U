@@ -7,8 +7,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
+.tel-link-vector {
+  display: none;
+}
 
 .footer__logo {
   font-weight: 500;
@@ -24,10 +28,12 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 17px;
+  padding-right: 4px;
 }
 
 .footer__call-me {
   text-align: center;
+  padding-bottom: 1px;
 }
 
 .tel-link {
@@ -41,4 +47,88 @@
   font-size: 16px;
   line-height: 19px;
   border-bottom: 1px #FFFFFF solid;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    padding-top: 36px;
+  }
+
+  .container_footer {
+    padding: 0 30px;
+  }
+
+  .footer-wrapper {
+    padding: 0;
+  }
+
+  .footer__created-by {
+    padding-top: 2px;
+    padding-right: 33px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .tel-link {
+    font-size: 21px;
+    line-height: 25px;
+  }
+  .call-link {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer {
+    padding: 0;
+  }
+  .footer-wrapper {
+    row-gap: 24px;
+  }
+  .container_footer {
+    padding: 25px 15px 2px 15px;
+  }
+  .footer__logo p {
+    font-size: 8px;
+    line-height: 11px;
+  }
+  .footer__created-by {
+    background-color: #2A2C3F;
+    font-size: 12px;
+    line-height: 17px;
+    order: 1;
+    flex-basis: 100%;
+    justify-content: center;
+    width: 320px;
+    height: 47px;
+    padding-left: 32px;
+  }
+
+  .tel-link {
+    display: none;
+  }
+  .call-link {
+    display: none;
+  }
+
+  .tel-link-vector {
+    background: url("../image/Phone.svg") no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    display: block;
+    padding-top: 2px;
+  }
+
+  .footer__logo {
+    flex-basis: 140px;
+  }
+  .footer__created-by {
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
 }

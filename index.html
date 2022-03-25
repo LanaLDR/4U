@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style/style.css">
   <title>Title</title>
 </head>
@@ -11,7 +12,7 @@
     <div class="container">
       <nav class="navigation">
         <div class="navigation-logo">
-          <img src="image/Logo.png" alt="Логотип компании">
+          <img src="image/Logo.png" alt="Логотип компании" class="logo-image">
         </div>
         <div class="navigation-link">
           <ul class="navigation__list">
@@ -23,9 +24,12 @@
             </li>
           </ul>
         </div>
+        <div class="tel-link-vector">
+          <a href="tel:89625561234"></a>
+        </div>
       </nav>
       <div class="header-text">
-        <h1 class="page__title">Заголовок c уникальным торговым предложение по системе 4U</h1>
+        <h1 class="header__title">Заголовок c уникальным торговым предложение по системе 4U</h1>
         <p>
           Описания предлжения компании. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему.
         </p>
@@ -74,7 +78,7 @@
     <div class="container">
       <h2 class="call-me__title">Остались вопросы?</h2>
       <h3 class="call-me__subtitle">Оставьте номер телефона, и мы перезвоним вам</h3>
-      <form class="call-me_form">
+      <form class="call-me__form">
         <ul class="call-me__list">
           <li class="call-me__item">
             <input type="text" name="name" placeholder="Ваше имя" class="call-me__input">
@@ -86,7 +90,7 @@
             <input type="email" name="email" placeholder="E-mail" class="call-me__input">
           </li>
           <li class="call-me__item">
-            <button class="call-me__btn">позвоните мне</button>
+            <button class="call-me__btn">Позвоните мне</button>
           </li>
         </ul>
         <p>Я даю своё <a href="" target="_blank">согласие</a> на обработку моих персональных данных.</p>
@@ -96,19 +100,22 @@
 </main>
 <footer>
   <section class="footer">
-    <div class="container">
+    <div class="container container_footer">
       <div class="footer-wrapper">
         <div class="footer__logo">
-          <img src="image/Logo.png" alt="Логотип компании">
+          <img src="image/Logo.png" alt="Логотип компании" class="logo-image">
           <p>© 2022 XXXcompany.
             Все права защищены.</p>
         </div>
         <div class="footer__created-by">
-          <p>Сделано в Ивановым Иваном</p>
+          <p>Сделано Ивановым Иваном</p>
         </div>
         <div class="footer__call-me">
           <p><a href="tel:89625561234" class="tel-link">+7 (962) 556 - 1234</a></p>
           <p><a href="#call-me" class="call-link">Перезвоните мне</a></p>
+        </div>
+        <div class="tel-link-vector">
+          <a href="tel:89625561234"></a>
         </div>
       </div>
     </div>

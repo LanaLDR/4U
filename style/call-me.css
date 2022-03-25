@@ -4,25 +4,28 @@
 }
 
 .call-me__subtitle {
-  margin-bottom: 50px;
+  margin-bottom: 48px;
+}
+.call-me__title {
+  padding-right: 25px;
+  margin-bottom: 18px;
 }
 
 .call-me__input {
   color: rgba(255, 255, 255, 0.5);
   border: 1.4px solid #FFFFFF;
   border-radius: 50px;
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
   min-width: 423px;
-  min-height: 44px;
+  height: 47px;
   padding-left: 25px;
 }
 
 .call-me__list {
   display: flex;
   flex-direction: column;
-  flex-basis: 423px;
-  gap: 21px;
-  margin-bottom: 50px;
+  gap: 18px;
+  margin-bottom: 51px;
 }
 
 .call-me__item {
@@ -39,21 +42,108 @@
   line-height: 23px;
   text-align: center;
   color: #FFFFFF;
-  padding: 11px 38px;
+  padding: 12px 39px;
 }
 
 .call-me__item:nth-child(3) {
-  margin-bottom: 29px;
+  margin-bottom: 32px;
 }
 
-.call-me_form p {
+.call-me__form p {
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
   text-align: center;
 }
 
-.call-me_form a {
+.call-me__form a {
   color: #4A76A8;
   border-bottom: 1px #4A76A8 solid;
+}
+
+@media (max-width: 1024px) {
+  .call-me__list {
+    margin-bottom: 30px;
+    gap: 17px
+  }
+
+  .call-me {
+  padding-bottom: 58px;
+  }
+
+  .call-me__title {
+    padding-left: 17px;
+    margin-bottom: 15px;
+  }
+
+  .call-me__subtitle {
+    padding-left: 17px;
+    margin-bottom: 49px;
+  }
+
+  .call-me__input {
+    min-width: 380px;
+    height: 42px;
+    font-size: 20px;
+    line-height: 23px;
+    padding-left: 23px;
+  }
+
+  .call-me__form p {
+    font-size: 17px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .call-me {
+    padding-top: 32px;
+    padding-bottom: 29px;
+  }
+
+  .call-me__title {
+    padding-right: 18px;
+    margin-bottom: 12px;
+  }
+  .call-me__list {
+    margin-bottom: 30px;
+  }
+
+  .call-me__subtitle {
+    font-size: 12px;
+    line-height: 14px;
+    padding-left: 0;
+    margin-bottom: 36px;
+  }
+
+  .call-me__item:nth-child(3){
+  margin-bottom: 30px;
+  }
+
+  .call-me__input {
+    min-width: 290px;
+    height: 28px;
+    font-size: 14px;
+    line-height: 16px;
+    padding-left: 16px;
+  }
+
+  .call-me__form p {
+    font-size: 11px;
+    line-height: 13px;
+  }
+
+  .call-me__list {
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+
+  .call-me__btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10px 26px;
+    height: 38px;
+    width: 174px;
+  }
 }

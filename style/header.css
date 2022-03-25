@@ -1,24 +1,27 @@
 .header {
   background: linear-gradient(rgba(47, 50, 75, 0.85), rgba(47, 50, 75, 0.85)), url("../image/background_header.jpg") no-repeat;
   background-size: cover;
+  padding-top: 40px;
 }
 
 .navigation {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 120px;
+  align-items: flex-start;
+  margin-bottom: 115px;
 }
 
 .navigation__list {
   text-align: center;
-  gap: 3px;
+
 }
 
-.navigation__item{
+.navigation__item {
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
+  padding-top: 8px;
+  margin-bottom: 5px;
 }
 
 .navigation__item-call-me {
@@ -26,6 +29,7 @@
   font-size: 16px;
   line-height: 19px;
   text-align: center;
+  padding: 0;
 }
 
 .header-text {
@@ -34,15 +38,15 @@
   font-size: 22px;
   line-height: 31px;
   color: rgba(255, 255, 255, 0.75);
-  padding: 0 105px;
+  padding: 0 95px;
 }
 
-.page__title {
+.header__title {
   font-style: normal;
   font-weight: 900;
   font-size: 52px;
   line-height: 61px;
-  margin-bottom: 35px;
+  margin-bottom: 32px;
 }
 
 .header-text__btn {
@@ -60,4 +64,99 @@
 
 .header-text p {
   margin-bottom: 90px;
+}
+
+@media (max-width: 1024px) {
+  .navigation {
+    margin-bottom: 65px;
+  }
+
+  .header__title {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 27.5px;
+  }
+
+  .header-text {
+    font-size: 18px;
+    line-height: 25px;
+    padding: 0 105px;
+  }
+
+  .navigation__item {
+    font-size: 21px;
+    line-height: 25px;
+  }
+
+  .navigation__item-call-me {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .header-text p {
+    margin-bottom: 57px;
+  }
+
+  .header-text__btn {
+    margin-bottom: 0;
+  }
+
+  .logo-image {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+    padding-bottom: 31px;
+  }
+  .navigation {
+    margin-bottom: 61px;
+  }
+
+  .header__title {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 26px;
+  }
+
+  .header-text {
+    padding: 0;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .navigation__item {
+      display: none;
+  }
+
+  .navigation__item-call-me {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .header-text p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    max-height: 77px;
+    overflow: hidden;
+    margin-bottom: 55px;
+  }
+
+  .header-text__btn {
+    padding: 9px 28px;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 35px;
+    width: 160px;
+  }
+
+  .logo-image {
+    width: 30px;
+    height: 30px;
+  }
 }

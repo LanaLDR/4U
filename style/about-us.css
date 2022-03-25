@@ -1,11 +1,16 @@
 .about-us {
   color: #383A4C;
   text-align: center;
+  padding-bottom: 73px;
 }
 
 .about-us-text {
-  padding: 0 105px;
-  margin-bottom: 50px;
+  padding: 0 100px;
+  margin-bottom: 58px;
+}
+
+.about-us__title {
+  margin-bottom: 26px;
 }
 
 .about-us-text p {
@@ -16,7 +21,7 @@
 }
 
 .about-us-advantage {
-  padding: 0 105px;
+  padding: 0 125px;
 }
 
 .about-us__list {
@@ -35,7 +40,7 @@
   flex-direction: column;
   flex-basis: 196px;
   align-items: center;
-  row-gap: 16px;
+  row-gap: 14px;
 }
 
 .about-us__ellipse {
@@ -56,7 +61,7 @@
   line-height: 100%;
   color: #FFFFFF;
   transform: translate(-50%, -50%);
-  top: 50%;
+  top: 53%;
 }
 
 .about-us__subtitle {
@@ -77,4 +82,130 @@
 .about-us__subtitle:after {
   right: 405px;
   left: auto;
+}
+
+@media (max-width: 1024px) {
+  .about-us-text {
+    padding: 0 70px;
+    margin-bottom: 60px;
+  }
+
+  .about-us__title {
+    padding-right: 2px;
+   margin-bottom: 25px;
+  }
+
+  .about-us__subtitle {
+    padding-right: 4px;
+    margin-bottom: 29px;
+  }
+
+  .about-us-text p {
+    font-size: 16px;
+    line-height: 23px;
+    padding: 0 73px;
+  }
+
+  .about-us__ellipse {
+    width: 104px;
+    height: 104px;
+    background-size: contain;
+  }
+
+  .about-us__ellipse:after {
+    font-size: 52px;
+    line-height: 73px;
+    top: 49%;
+  }
+
+  .about-us__item {
+    row-gap: 25px;
+  }
+  .about-us-advantage {
+  padding: 0 44px;
+  }
+
+  .about-us__list {
+    justify-content: flex-start;
+    font-size: 18px;
+    line-height: 25px;
+    flex-basis: 180px;
+    gap: 44px;
+  }
+
+  .about-us__subtitle:after, .about-us__subtitle:before {
+    left: 325px;
+    width: 40px;
+  }
+
+  .about-us__subtitle:after {
+    right: 325px;
+    left: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .about-us {
+    padding-top: 31px;
+    padding-bottom: 46px;
+  }
+
+  .about-us__list {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .about-us__title {
+  margin-bottom: 17px;
+  }
+
+  .about-us__subtitle {
+    margin-bottom: 29px;
+    padding-left: 2px;
+  }
+
+  .about-us-text {
+    padding: 0;
+    margin-bottom: 40px;
+  }
+
+  .about-us-text p {
+    padding: 0;
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .about-us__ellipse {
+    width: 104px;
+    height: 104px;
+    background-size: contain;
+  }
+
+  .about-us__ellipse:after {
+    font-size: 52px;
+    line-height: 73px;
+    top: 51%;
+  }
+
+  .about-us-advantage {
+    padding: 0 41px;
+  }
+
+  .about-us__list {
+    font-size: 18px;
+    line-height: 25px;
+    gap: 26px;
+  }
+
+  .about-us__subtitle:after, .about-us__subtitle:before {
+    left: 78px;
+    width: 20px;
+    height: 1px;
+    top: 68%;
+  }
+
+  .about-us__subtitle:after {
+    right: 78px;
+    left: auto;
+  }
 }

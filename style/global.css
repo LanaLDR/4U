@@ -1,62 +1,62 @@
 html {
-    position: relative;
-    box-sizing: border-box;
+  position: relative;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    color: #FFFFFF;
-    font-size: 22px;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 22px;
 }
 
 input {
-    width: 300px;
-    height: 52px;
+  width: 300px;
+  height: 52px;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 button {
-    padding: 0;
-    cursor: pointer;
-    transition-duration: 200ms;
-    transition-timing-function: linear;
-    border: none;
+  padding: 0;
+  cursor: pointer;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+  border: none;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
-    transition-duration: 200ms;
+  text-decoration: none;
+  color: inherit;
+  transition-duration: 200ms;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 iframe {
-    border: none;
+  border: none;
 }
 
 .container {
-    max-width: 1200px;
-    padding:0;
-    margin: 0 auto;
+  max-width: 1200px;
+  padding: 0;
+  margin: 0 auto;
 }
 
-h1,h2, h3, h4 {
+h1, h2, h3, h4 {
   margin: 0;
   text-align: center;
 }
@@ -81,4 +81,40 @@ h3 {
   font-size: 22px;
   line-height: 26px;
   margin-bottom: 35px;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 30px;
+  }
+
+  h2 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 23px;
+  }
+}
+
+@media (max-width: 320px) {
+  section {
+    padding: 30px 0;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  h2 {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  h3 {
+    font-size: 16px;
+    line-height: 19px;
+  }
 }
