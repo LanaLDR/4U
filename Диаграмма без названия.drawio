@@ -1,9 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2024-05-18T21:11:16.462Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" version="24.4.3" etag="nVQ29MjH-mCFFUeACz2z" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-18T22:37:27.543Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="h58THAvoHZuE2WeTeoNi" version="24.4.3" type="github">
   <diagram name="Страница — 1" id="3eVWmwQbOWbiIh8tAF9G">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WVgotV6CZozGioevc11D-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WVgotV6CZozGioevc11D-3" target="WVgotV6CZozGioevc11D-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVgotV6CZozGioevc11D-22" value="Реализованные и отправленные&lt;div&gt;&amp;nbsp;в репозиторий авто-тесты&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVgotV6CZozGioevc11D-21">
+          <mxGeometry x="-0.2941" y="4" relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVgotV6CZozGioevc11D-3" value="&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;Написание сценариев с использованием&lt;/span&gt;&lt;div style=&quot;font-size: 11px; text-wrap: nowrap;&quot;&gt;&amp;nbsp;Selenide и RestAssured&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="100" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WVgotV6CZozGioevc11D-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WVgotV6CZozGioevc11D-7" target="WVgotV6CZozGioevc11D-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVgotV6CZozGioevc11D-26" value="Уведомление о результатах&lt;div&gt;и сформированный отчёт&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVgotV6CZozGioevc11D-25">
+          <mxGeometry x="-0.32" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVgotV6CZozGioevc11D-7" value="Запуск авто-тестов в CI/CD системе Jenkins" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="100" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WVgotV6CZozGioevc11D-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="129.5" as="sourcePoint" />
+            <mxPoint x="200" y="129.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVgotV6CZozGioevc11D-23" value="Готовые чек-листы&lt;div&gt;и тест кейсы&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVgotV6CZozGioevc11D-16">
+          <mxGeometry x="-0.7765" y="3" relative="1" as="geometry">
+            <mxPoint x="61" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVgotV6CZozGioevc11D-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WVgotV6CZozGioevc11D-24" target="WVgotV6CZozGioevc11D-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVgotV6CZozGioevc11D-36" value="Найденный дефект web-приложения,&lt;div&gt;полученные в авто-тесте логи&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVgotV6CZozGioevc11D-35">
+          <mxGeometry x="0.1818" relative="1" as="geometry">
+            <mxPoint x="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVgotV6CZozGioevc11D-24" value="Разбор отчёта в интерфейсе&amp;nbsp;&lt;div&gt;Allure Report&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="260" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WVgotV6CZozGioevc11D-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WVgotV6CZozGioevc11D-24" target="WVgotV6CZozGioevc11D-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="330" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVgotV6CZozGioevc11D-33" value="Некорректно реализованные тесты" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVgotV6CZozGioevc11D-32">
+          <mxGeometry x="0.31" y="-2" relative="1" as="geometry">
+            <mxPoint x="20" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVgotV6CZozGioevc11D-34" value="Заведение баг репорта&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WVgotV6CZozGioevc11D-37" value="Подтверждение работоспособности проверяемого сценария" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WVgotV6CZozGioevc11D-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WVgotV6CZozGioevc11D-24" target="WVgotV6CZozGioevc11D-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="420" as="sourcePoint" />
+            <mxPoint x="730" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVgotV6CZozGioevc11D-41" value="Успешно пройденные авто-тесты" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVgotV6CZozGioevc11D-40">
+          <mxGeometry x="0.1312" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
